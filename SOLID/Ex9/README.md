@@ -5,7 +5,7 @@ An evaluation pipeline checks submissions using a rubric, runs plagiarism checks
 
 ## 2. Current behavior
 - `EvaluationPipeline.evaluate` directly instantiates concrete graders/checkers/writers with `new`
-- Prints a final summary line and “writes” a report
+- Prints a final summary line and “writes” a report.
 
 ## 3. What’s wrong (at least 5 issues)
 1. High-level pipeline depends on low-level concrete classes (hard-coded `new` everywhere).
@@ -51,3 +51,4 @@ FINAL: PASS (total=90)
 
 ## 10. Stretch goals
 - Add a second grading strategy without editing pipeline logic.
+
