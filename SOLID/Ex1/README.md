@@ -8,7 +8,7 @@ You are building a simple onboarding flow for new students. The system accepts a
 - Validates basic rules (non-empty, email contains `@`, phone digits, program allowed)
 - Generates an ID like `SST-2026-0001`
 - Saves the student record to an in-memory “DB”
-- Prints a confirmation block and a small table dump
+- Prints a confirmation block and a small table dump.
 
 ## 3. What’s wrong with the design (at least 5 issues)
 1. `OnboardingService` mixes parsing, validation, ID generation, persistence, and printing.
