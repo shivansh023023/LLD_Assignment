@@ -13,7 +13,7 @@ Refactor `OrderService` to accept a `PaymentGateway` and remove provider branchi
 
 ## Acceptance Criteria
 - `OrderService` calls **only** `PaymentGateway`
-- Adding a new provider requires no change to `OrderService`
+- Adding a new provider requires no change to `OrderService`.
 - Running `App` prints transaction IDs for both providers.
 
 ## Hints
