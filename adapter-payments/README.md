@@ -12,7 +12,7 @@ Introduce an **Adapter** so `OrderService` depends only on a `PaymentGateway` in
 Refactor `OrderService` to accept a `PaymentGateway` and remove provider branching.
 
 ## Acceptance Criteria
-- `OrderService` calls **only** `PaymentGateway`
+- `OrderService` calls **only** `PaymentGateway`.
 - Adding a new provider requires no change to `OrderService`.
 - Running `App` prints transaction IDs for both providers.
 
