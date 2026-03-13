@@ -19,7 +19,7 @@ Refactor `OrderService` to accept a `PaymentGateway` and remove provider branchi
 ## Hints
 - Use constructor injection or a `Map<String, PaymentGateway>`
 - Keep adapters stateless
-- Use `Objects.requireNonNull` to validate inputs
+- Use `Objects.requireNonNull` to validate inputs.
 
 ## Build & Run
 ```bash
