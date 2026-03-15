@@ -6,7 +6,7 @@ OrderService directly depends on two mismatched SDKs (`FastPayClient`, `SafeCash
 ## Your Task
 Introduce an **Adapter** so `OrderService` depends only on a `PaymentGateway` interface. Create:
 - `PaymentGateway` (target interface): `String charge(String customerId, int amountCents)`
-- `FastPayAdapter` and `SafeCashAdapter` mapping to their respective SDKs
+- `FastPayAdapter` and `SafeCashAdapter` mapping to their respective SDKs.
 - A simple map-based registry in `App` to select the gateway
 
 Refactor `OrderService` to accept a `PaymentGateway` and remove provider branching.
