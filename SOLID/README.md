@@ -4,7 +4,7 @@ This repository contains **10 refactoring exercises** for Scaler School of Techn
 
 Each exercise starts with:
 - **Working code** (compiles + runs)
-- **Intentionally messy design** that violates one SOLID principle heavily
+- **Intentionally messy design** that violates one SOLID principle heavily.
 - A clear set of refactoring tasks, constraints, and acceptance criteria
 
 Important: **Design patterns are intentionally not used yet** in the instructions. You should solve these problems using only **OOP mechanisms** (classes, interfaces, composition, polymorphism, encapsulation) and good modular design.
