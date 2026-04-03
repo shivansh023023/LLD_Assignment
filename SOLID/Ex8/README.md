@@ -26,7 +26,7 @@ Clubs have different roles: treasurer, secretary, event lead. The admin tool int
 
 ## 6. Acceptance criteria
 - No dummy/no-op implementations for irrelevant methods.
-- `ClubConsole` depends on minimal interfaces.
+- `ClubConsole` depends on minimal interfaces
 
 ## 7. How to run
 ```bash
