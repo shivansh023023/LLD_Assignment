@@ -14,8 +14,8 @@ Your Task
 4) Update `MapDataSource` (marker creation pipeline) to obtain styles via the factory
    (no `new MarkerStyle(...)` during marker creation).
 
-Acceptance Criteria
-- Same rendering “cost” as before (same number of markers rendered, same output format).
+Acceptance Criteria : 
+- Same rendering “cost” as before (same number of markers rendered, same output format)
 - Identical style configurations reuse the same `MarkerStyle` instance
   (see `QuickCheck` — it should report a small number of unique styles).
 - `MarkerStyle` is immutable (all fields final, no setters).
